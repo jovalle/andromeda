@@ -1,0 +1,47 @@
+{
+  "desktop": {
+    "version": "1.19.1",
+    "url": "https://github.com/MorpheApp/morphe-desktop/releases/download/v1.19.1/morphe-desktop-1.19.1-all.jar",
+    "sha256": "a51472252cd63b2eac635dbb5a154ff918bfc15268da89679feb3d760230c573"
+  },
+  "official": {
+    "version": "1.48.0",
+    "url": "https://github.com/MorpheApp/morphe-patches/releases/download/v1.48.0/patches-1.48.0.mpp",
+    "sha256": "82bc696c94c26dbf75242b59980251315145457575b663200b981ca351e1c0f7"
+  },
+  "instagram": {
+    "version": "0.0.16",
+    "url": "https://github.com/SysAdminDoc/HushGram/releases/download/v0.0.16/patches-0.0.16.mpp",
+    "sha256": "51b81009ef870dba06cf0feb0af329ee52b5753a7290da6a26839748a9e4a270"
+  },
+  "facebook": {
+    "version": "0.18.0",
+    "url": "https://github.com/SysAdminDoc/HushFacebook/releases/download/v0.18.0/patches-0.18.0.mpp",
+    "sha256": "18530e60f6583d685bac4809ead3593a24ed2ffe81568116434717e5de5c7c65"
+  },
+  "messenger": {
+    "version": "0.26.0",
+    "url": "https://github.com/SysAdminDoc/HushMessenger/releases/download/v0.26.0/patches-0.26.0.mpp",
+    "sha256": "3c43ed798c5c1cc24ec7b4bac56bcd404a07fa7551c90380576d994047c65eac"
+  },
+  "tiktok": {
+    "version": "0.79.0",
+    "url": "https://github.com/SysAdminDoc/HushFeed/releases/download/v0.79.0/patches-0.79.0.mpp",
+    "sha256": "a25056e58abb44ffcd49fd5fa38f9fa315ac9553a113f15c86ea4c9509b069da"
+  },
+  "waze": {
+    "version": "0.30.41",
+    "url": "https://github.com/Forsigh/waze-patches/releases/download/v0.30.41/patches-0.30.41.mpp",
+    "sha256": "3b678a25c0ae97745e9cb33b27417728ca6afa8ebd055048df87cd7ae3c679a9"
+  },
+  "twitter": {
+    "version": "3.10.0",
+    "url": "https://github.com/crimera/piko/releases/download/v3.10.0/patches-3.10.0.mpp",
+    "sha256": "01cb828fcc66bcdda7c4242fdc509518107b883eaf26665b0da482945b7a8033"
+  },
+  "rif": {
+    "version": "1.4.0",
+    "url": "https://github.com/wchill/patcheddit/releases/download/v1.4.0/patches-1.4.0.mpp",
+    "sha256": "8d21d9675f28df0b6b433fddc1f156714b60f4ac168c06291bbb173144cd596e"
+  }
+}

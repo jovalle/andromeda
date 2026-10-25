@@ -1,0 +1,247 @@
+{
+  "microg": {
+    "package": "app.revanced.android.gms",
+    "version": "7.2.2",
+    "code": 255070225,
+    "url": "https://github.com/MorpheApp/MicroG-RE/releases/download/7.2.2/microg-7.2.2-icon-arm64-v8a.apk",
+    "sha256": "18e51027c52b0a32c3e37ec1b88b46ff5b79f848f472e93f912f38bda3951e89",
+    "install": false,
+    "notifications": true,
+    "background": true
+  },
+  "youtube": {
+    "package": "app.morphe.android.youtube",
+    "version": "21.20.405",
+    "code": 1561173354,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "youtube.apk",
+      "sha256": "4b3ca9de0eb6857d43fa8766a724a2eba6405dfdbcdfb20eef6cb8950e805e2c",
+      "certificate": "5aad2bee6db95d17e05a08d7d1e64c10a1511879154483916b6ae6c7fd9cb0c6",
+      "patches": "official",
+      "source": "https://www.apkmirror.com/apk/google-inc/youtube/youtube-21-20-405-release/youtube-21-20-405-4-android-apk-download/"
+    }
+  },
+  "music": {
+    "package": "app.morphe.android.apps.youtube.music",
+    "version": "9.20.53",
+    "code": 92053240,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "music.apk",
+      "sha256": "5c4add71134d46818c855959e1c7029518c68be9e56ef172119626539d32c852",
+      "certificate": "6a2f65ec694a6a632acdcb5080912a565f903d4b8d83f0eb8e44fbdf2660d8e1",
+      "patches": "official",
+      "source": "https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-9-20-53-release/youtube-music-9-20-53-4-android-apk-download/"
+    }
+  },
+  "instagram": {
+    "package": "com.instagram.android.hush",
+    "version": "452.1.0.53.64",
+    "code": 385811006,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "instagram.apkm",
+      "device": "com.instagram.android",
+      "sha256": "366876a5c950fc0fa3372e6513b4caaff7654da6b9b0c4a88c403f4f06a49104",
+      "certificate": "3a10c50c18ba937506c2875e9047be74f8fd8b86fae2ff9feaa50a81fcb4c014",
+      "patches": "instagram",
+      "source": "Dragoon's Play Store APK set, com.instagram.android 452.1.0.53.64 (385811006)",
+      "enable": [
+        {
+          "name": "Install next to Instagram",
+          "options": {
+            "packageName": "com.instagram.android.hush",
+            "appName": "HushGram"
+          }
+        }
+      ]
+    }
+  },
+  "morphe": {
+    "package": "app.morphe.manager",
+    "version": "2.2.0",
+    "code": 39892310,
+    "url": "https://github.com/MorpheApp/morphe-manager/releases/download/v2.2.0/morphe-manager-2.2.0.apk",
+    "sha256": "5a175a77f671088c97ebaa6fdd65b1d4ed9f07dda44d59a37d3d11a712da2c44",
+    "install": true,
+    "notifications": true,
+    "background": true
+  },
+  "coffee": {
+    "package": "com.github.muellerma.coffee",
+    "version": "2.27",
+    "code": 47,
+    "url": "https://f-droid.org/repo/com.github.muellerma.coffee_47.apk",
+    "sha256": "ae4688fe48e751517e7a1d56aed27bff10b87daac0d7e28993fb193a7dc8f223",
+    "install": false,
+    "notifications": true,
+    "background": true,
+    "keep_awake": true
+  },
+  "reddit": {
+    "package": "app.morphe.reddit",
+    "version": "2026.24.0",
+    "code": 2147483647,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "reddit.apkm",
+      "sha256": "b99d8e2821565066e61ee0fccb32ffa3e8fa121effede66253b1f93e61f8391b",
+      "certificate": "970b91143813b4c9d5f3634f672c9fcaa5621b4efaaedafd6c235cbbb869736f",
+      "patches": "official",
+      "source": "https://www.apkmirror.com/apk/redditinc/reddit/reddit-2026-24-0-release/reddit-2026-24-0-android-apk-download/",
+      "enable": [
+        {
+          "name": "Clone app",
+          "options": {
+            "packageName": "app.morphe.reddit"
+          }
+        }
+      ],
+      "code": 2624051
+    }
+  },
+  "facebook": {
+    "package": "com.facebook.katana",
+    "version": "584.0.0.51.56",
+    "code": 475817393,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "facebook.apkm",
+      "sha256": "c60b0f709dea1c58e05be83168ba26a1cf09c3b109025b01c9a63a19e164951e",
+      "certificate": "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+      "patches": "facebook",
+      "profile_links": true,
+      "source": "https://www.apkmirror.com/apk/facebook-2/facebook/facebook-584-0-0-51-56-release/"
+    }
+  },
+  "messenger": {
+    "package": "com.facebook.orca",
+    "version": "584.0.0.49.98",
+    "code": 346814894,
+    "install": false,
+    "notifications": true,
+    "background": true,
+    "build": {
+      "file": "messenger.apk",
+      "sha256": "3cdcde5608814756f409e21ef5bcb679931edb34dfe33e36f84b1de663ddf966",
+      "certificate": "911d604446084ca7f4760b775bfc160fa8702441240a7258645d7a72c4312d27",
+      "patches": "messenger",
+      "source": "https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-584-0-0-49-98-release/"
+    },
+    "activity": "com.facebook.orca/.auth.StartScreenActivity"
+  },
+  "tiktok": {
+    "package": "com.zhiliaoapp.musically",
+    "version": "47.5.3",
+    "code": 2024705030,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "tiktok.apk",
+      "sha256": "6670ca3f93bfea379658cad3c27f05d3a380b23a0d82569cce684b7453e8ff3e",
+      "certificate": "9041803e91bcb814b4b4399fb5c85a91640b755e5e8ba76813814bf4cf2ab5ba",
+      "patches": "tiktok",
+      "source": "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/tiktok-47-5-3-release/tiktok-47-5-3-2-android-apk-download/"
+    }
+  },
+  "waze": {
+    "package": "com.waze",
+    "version": "5.25.0.1",
+    "code": 1030756,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "waze.apkm",
+      "sha256": "6a86e0636266718a825fe159cb14edcfeca5962dda489e27662ba2daa67e9acd",
+      "certificate": "03637f6c5d8f604e6fdb79a6ffbfa578de4e318f8da22fc6106665247f8807d7",
+      "patches": "waze",
+      "source": "https://www.apkmirror.com/apk/waze/waze-gps-maps-traffic-alerts-live-navigation/waze-navigation-live-traffic-5-25-0-1-release/",
+      "code": 1030736
+    }
+  },
+  "twitter": {
+    "package": "com.twitter.android",
+    "version": "12.19.1-release.0",
+    "code": 2147483647,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "twitter.apkm",
+      "sha256": "e288abb4b3bdf94c3d0397137b42cbf27a8f90049276166aee0383ad694dbd2c",
+      "certificate": "0fd9a0cfb07b65950997b4eaebdc53931392391aa406538a3b04073bc2ce2fe9",
+      "patches": "twitter",
+      "source": "https://www.apkmirror.com/apk/x-corp/twitter/x-12-19-1-release-0-release/x-12-19-1-release-0-android-apk-download/",
+      "code": 312191000
+    }
+  },
+  "redreader": {
+    "package": "org.quantumbadger.redreader",
+    "version": "1.27",
+    "code": 119,
+    "url": "https://github.com/QuantumBadger/RedReader/releases/download/v1.27/RedReader-v1.27.apk",
+    "sha256": "e52dcbeeebfff8baf7be84023992be27a8ee514b7e4219ea5bb351a143896448",
+    "install": false,
+    "notifications": true,
+    "background": false
+  },
+  "rif": {
+    "package": "com.andrewshu.android.reddit",
+    "version": "5.6.22",
+    "code": 4622,
+    "install": false,
+    "notifications": true,
+    "background": false,
+    "build": {
+      "file": "rif.apk",
+      "sha256": "88d39f859c850f51542c6a12d8bd3c79706debe0f1dff061ed0fe32b3dc688e1",
+      "certificate": "b8d15967759f795d29051f88ea0bcbf0bc5b6a7a587529c30856a73119c33cfd",
+      "patches": "rif",
+      "source": "https://www.apkmirror.com/apk/talklittle/reddit-is-fun/reddit-is-fun-5-6-22-release/rif-is-fun-for-reddit-5-6-22-android-apk-download/",
+      "enable": [
+        {
+          "name": "Spoof client",
+          "options": {
+            "redirect-uri": "redreader://rr_oauth_redir",
+            "user-agent": "org.quantumbadger.redreader/1.25.1"
+          },
+          "options_file": ".local/rif.json"
+        }
+      ]
+    }
+  },
+  "home": {
+    "package": "us.andromeda.home",
+    "version": "1.0",
+    "code": 1,
+    "native": true,
+    "install": false,
+    "notifications": false,
+    "background": false
+  },
+  "spotify": {
+    "package": "com.spotify.music",
+    "version": "9.1.94.1912",
+    "code": 147600456,
+    "file": "spotify.apkm",
+    "sha256": "07aa00206436764b08ad76b6cf18d1a754a7f6f0d6eb417231a5ae8ce9d5d306",
+    "certificate": "6505b181933344f93893d586e399b94616183f04349cb572a9e81a3335e28ffd",
+    "source": "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/spotify-music-and-podcasts-9-1-94-1912-release/spotify-music-and-podcasts-9-1-94-1912-android-apk-download/",
+    "install": false,
+    "notifications": false,
+    "background": false
+  }
+}

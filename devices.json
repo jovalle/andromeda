@@ -1,0 +1,319 @@
+{
+  "dragoon": {
+    "model": "Pixel 10 Pro XL",
+    "abi": "arm64-v8a",
+    "apps": [
+      "coffee",
+      "microg",
+      "morphe",
+      "youtube",
+      "music",
+      "instagram",
+      "reddit",
+      "facebook",
+      "messenger",
+      "tiktok",
+      "waze",
+      "twitter",
+      "redreader",
+      "rif",
+      "spotify"
+    ],
+    "remove_stock": {
+      "youtube": "com.google.android.youtube",
+      "music": "com.google.android.apps.youtube.music",
+      "instagram": "com.instagram.android",
+      "reddit": "com.reddit.frontpage"
+    },
+    "tiles": [
+      "wifi",
+      "bt",
+      "cell",
+      "airplane",
+      "dnd",
+      "battery",
+      "rotation",
+      "custom(com.github.muellerma.coffee/.tiles.ToggleTile)"
+    ],
+    "home": {
+      "rows": [
+        [
+          "phone",
+          "messages",
+          "chrome",
+          "camera"
+        ],
+        [
+          "facebook",
+          "messenger",
+          "instagram",
+          "tiktok"
+        ],
+        [
+          "reddit",
+          "rif",
+          "youtube"
+        ]
+      ],
+      "dock": [
+        "waze",
+        "maps",
+        "music",
+        "spotify"
+      ],
+      "labels": {
+        "phone": "Phone",
+        "messages": "Messages",
+        "chrome": "Chrome",
+        "camera": "Camera",
+        "facebook": "Facebook",
+        "messenger": "Messenger",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "reddit": "Reddit",
+        "rif": "rif",
+        "youtube": "YouTube Morphe",
+        "waze": "Waze",
+        "maps": "Maps",
+        "music": "YT Music",
+        "spotify": "Spotify"
+      },
+      "system": {
+        "phone": {
+          "package": "com.google.android.dialer"
+        },
+        "messages": {
+          "package": "com.google.android.apps.messaging"
+        },
+        "chrome": {
+          "package": "com.android.chrome"
+        },
+        "camera": {
+          "package": "com.google.android.GoogleCamera"
+        },
+        "maps": {
+          "package": "com.google.android.apps.maps"
+        }
+      },
+      "hidden": [
+        "com.google.android.youtube",
+        "com.google.android.apps.youtube.music",
+        "com.instagram.android",
+        "com.reddit.frontpage"
+      ]
+    },
+    "privacy": {
+      "notifications": [
+        "com.google.android.dialer",
+        "com.google.android.apps.messaging",
+        "com.google.android.apps.safetyhub",
+        "com.android.vending"
+      ],
+      "exempt": [
+        "com.android.settings",
+        "com.android.systemui",
+        "com.android.phone",
+        "com.android.server.telecom",
+        "com.google.android.permissioncontroller",
+        "com.google.android.apps.safetyhub",
+        "com.google.android.gms",
+        "com.google.android.gsf",
+        "com.google.android.cellbroadcastreceiver",
+        "com.android.cellbroadcastreceiver"
+      ],
+      "allow": [
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+      ],
+      "exceptions": {
+        "com.google.android.dialer": [
+          "android.permission.READ_CONTACTS",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.READ_CALL_LOG",
+          "android.permission.WRITE_CALL_LOG",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.CALL_PHONE",
+          "android.permission.ANSWER_PHONE_CALLS",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.READ_VOICEMAIL",
+          "android.permission.ADD_VOICEMAIL",
+          "android.permission.WRITE_VOICEMAIL",
+          "android.permission.BLUETOOTH_CONNECT"
+        ],
+        "com.google.android.apps.messaging": [
+          "android.permission.READ_CONTACTS",
+          "android.permission.WRITE_CONTACTS",
+          "android.permission.READ_SMS",
+          "android.permission.RECEIVE_SMS",
+          "android.permission.SEND_SMS",
+          "android.permission.RECEIVE_MMS",
+          "android.permission.RECEIVE_WAP_PUSH",
+          "android.permission.READ_CELL_BROADCASTS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.CALL_PHONE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.BLUETOOTH_CONNECT"
+        ],
+        "com.google.android.GoogleCamera": [
+          "android.permission.CAMERA",
+          "android.permission.RECORD_AUDIO"
+        ],
+        "com.google.android.apps.photos": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.ACCESS_MEDIA_LOCATION"
+        ],
+        "com.google.android.apps.maps": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION"
+        ],
+        "com.waze": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION"
+        ]
+      },
+      "secure": {
+        "lock_screen_allow_private_notifications": "0",
+        "clipboard_show_access_notifications": "1"
+      }
+    },
+    "links": {
+      "youtube": [
+        "youtu.be",
+        "m.youtube.com",
+        "youtube.com",
+        "www.youtube.com",
+        "studio.youtube.com"
+      ],
+      "music": [
+        "music.youtube.com"
+      ],
+      "instagram": [
+        "www.instagram.com",
+        "help.instagram.com",
+        "aistudio.instagram.com",
+        "m.instagram.com",
+        "instagram.com",
+        "ig.me",
+        "applink.instagram.com",
+        "instagr.am",
+        "about.instagram.com",
+        "familycenter.instagram.com"
+      ],
+      "reddit": [
+        "old.reddit.com",
+        "mod.reddit.com",
+        "accounts.reddit.com",
+        "applink.reddit.com",
+        "new.reddit.com",
+        "click.redditmail.com",
+        "np.reddit.com",
+        "reddit.onelink.me",
+        "*.redd.it",
+        "reddit.com",
+        "m.reddit.com",
+        "chat.reddit.com",
+        "www.reddit.com",
+        "s.reddit.com"
+      ],
+      "facebook": [
+        "web.facebook.com",
+        "p.facebook.com",
+        "m.prod.facebook.com",
+        "m.fb.watch",
+        "m.alpha.facebook.com",
+        "x.facebook.com",
+        "mbasic.facebook.com",
+        "fb.com",
+        "m.beta.facebook.com",
+        "mbasic.prod.facebook.com",
+        "facebook.com",
+        "free.facebook.com",
+        "m.facebook.com",
+        "www.fb.audio",
+        "www.fb.watch",
+        "fb.audio",
+        "fb.watch",
+        "mtouch.facebook.com",
+        "mobile.facebook.com",
+        "fb.gg",
+        "fb.me",
+        "mbasic.alpha.facebook.com",
+        "www.alpha.facebook.com",
+        "m.fbwat.ch",
+        "www.fb.gg",
+        "www.fb.me",
+        "mbasic.beta.facebook.com",
+        "work.meta.com",
+        "www.prod.facebook.com",
+        "www.facebook.com",
+        "www.beta.facebook.com",
+        "touch.facebook.com",
+        "www.fbwat.ch",
+        "familycenter.facebook.com"
+      ],
+      "messenger": [
+        "www.m.me",
+        "www.msngr.com",
+        "familycenter.messenger.com",
+        "m.me",
+        "www.messenger.com",
+        "msngr.com",
+        "messenger.com"
+      ],
+      "tiktok": [
+        "app-va.tiktokv.com",
+        "vm.tiktok.com",
+        "m.tiktok.com",
+        "tiktok.me",
+        "vt.tiktok.com",
+        "www.tiktok.com",
+        "link.e.tiktok.com",
+        "us.tiktok.com",
+        "t.tiktok.com",
+        "oec-api.tiktokv.com",
+        "www.tt.fun",
+        "www.tt.inc",
+        "vt.tokopedia.com",
+        "www.tt.site",
+        "shop.tiktok.com",
+        "www.tiktokv.com"
+      ],
+      "waze": [
+        "*.waze.com",
+        "www.waze.com",
+        "waze.com",
+        "beta.waze.com"
+      ],
+      "twitter": [
+        "twitter.com",
+        "www.twitter.com",
+        "twitter.app.link",
+        "x-alternate.app.link",
+        "handles.x.com",
+        "handles.twitter.com",
+        "x.com",
+        "www.x.com",
+        "mobile.x.com",
+        "mobile.twitter.com",
+        "twitter-alternate.app.link",
+        "x.app.link",
+        "*.fxtwitter.com",
+        "*.fixvx.com",
+        "twittpr.com",
+        "*.xcancel.com",
+        "fixupx.com",
+        "*.fixupx.com",
+        "vxtwitter.com",
+        "*.twittpr.com",
+        "fxtwitter.com",
+        "xcancel.com",
+        "fixvx.com",
+        "*.vxtwitter.com"
+      ]
+    }
+  }
+}

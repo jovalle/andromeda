@@ -1,0 +1,7 @@
+.cache/
+.local/
+__pycache__/
+devices.local.json
+backups/
+*.keystore
+
