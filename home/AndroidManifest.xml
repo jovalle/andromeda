@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="us.andromeda.home" android:versionCode="1" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="37" />
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+    <application android:label="Andromeda Home" android:allowBackup="false"
+        android:theme="@style/HomeTheme" android:supportsRtl="true">
+        <activity android:name=".HomeActivity" android:exported="true"
+            android:launchMode="singleTask" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:name=".ConfigProvider" android:authorities="us.andromeda.home.config"
+            android:exported="true" android:permission="android.permission.DUMP" />
+    </application>
+</manifest>
